@@ -14,7 +14,7 @@ public class rfSignalSim {
 		 		 
 		 //contar de 0 a 360
 		 for(int x = 0; x < 361 ; x += 1 ) {
-			//calcular y
+			//algoritmo para calcular valor de y
 			 y = Math.pow((Math.sin((x * (Math.PI))/180*4)*200 +200), 1.2) ; 
 			 
 			 
@@ -26,7 +26,7 @@ public class rfSignalSim {
 			 
 			 
 			 //imprimir y
-			 System.out.println("x =" + x + "y ="+ y);
+			 System.out.println("x =" + x + "y  ="+ y);
 			 
 			 
 		 }
