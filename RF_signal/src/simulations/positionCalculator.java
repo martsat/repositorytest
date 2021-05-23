@@ -2,8 +2,7 @@ package simulations;
 
 public class positionCalculator{
 	public static void main(String[]args) {
-		double i = Math.cosh(90);
-		System.out.println(i);
+		
 		
 	}
 	public static double[] getPos(int degA, int degB,int degN, double A) { //angulo de rfa, rfb y medida entre estos
